@@ -1,5 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap");
 
+body {
+  font-family: "PT Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* header area */
 
-body{
-    font-family: 'PT Sans', sans-serif;}
+.tiny-header {
+    background-color: #fcdb00;
+}
+.tiny-header-top {
+}
+.tiny-manu-icon {
+}
+.tiny-social-icon {
+}
+.tiny-social-icon ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.tiny-social-icon ul li{}
+.tiny-social-icon ul li a{}
