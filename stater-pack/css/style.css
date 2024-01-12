@@ -110,6 +110,7 @@ ul{
     text-transform: capitalize;
 }
  .tiny-fallow{
-    display: none;
-font-size: 30px;}
+     display: none;
+    text-align: end;
+}
  

@@ -3,6 +3,7 @@
         display: none;
     }
     .tiny-fallow{
-        display: flex;
+        display: block;
     }
+   
 }
