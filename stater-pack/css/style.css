@@ -103,4 +103,9 @@ ul{
 .tiny-manu ul li{
     font-size: 15px;
     padding: 0 10px;
+    color: #010101;
+}
+.tiny-manu ul li a{
+    color: #010101;
+    text-transform: capitalize;
 }

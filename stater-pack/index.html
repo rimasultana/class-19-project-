@@ -16,7 +16,7 @@
         <div class="tiny-header-top"></div>
         <div class="row align-items-center">
           <div class="col-lg-5">
-            <span class="tiny-manu-icon">
+            <span class="tiny-manu-icon" data-bs-toggle="modal" data-bs-target="manu">
               <i class="fa-solid fa-bars"></i>
             </span>
           </div>
@@ -145,20 +145,25 @@
         </div>
       </div>
     </div>
+    <div class="tiny-manu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contract</a></li>
+            <li><a href="#">Blogs</a></li> </ul>
     <!-- manu -->
-    <div class="" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="Menu">Menu</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Menu</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
             <div class="tiny-manu">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -166,18 +171,13 @@
                     <li><a href="#">Service</a></li>
                     <li><a href="#">Works</a></li>
                     <li><a href="#">Contract</a></li>
-                    <li><a href="#">Blogs</a></li>
-
-
-
-
+                    <li><a href="#">Blogs</a></li> 
                 </ul>
-            </div>
-        
-          </div>
          </div>
-      </div>
+        </div>
+     </div>
     </div>
+  </div>
     <!-- manu End -->
 
     <!-- bootstrap js link -->
