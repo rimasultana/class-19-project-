@@ -76,6 +76,7 @@ ul{
   .ancor {
     text-transform: uppercase;
     color: #2d2d2d;
-    border: 2px solid #0000;
-    margin-top: 100px;
+    /* border: 2px solid #0000; */
+    /* margin-top: 100px; */
+    padding: 10px 30px;
 }
