@@ -45,7 +45,7 @@ ul{
 }
 .tiny-slide{
     text-align: center;
-    padding: 218px 0 100px;
+    padding: 200px 0 120px;
 }
 .tiny-slide h2{
     color: #010101;
@@ -81,4 +81,9 @@ ul{
     background-color: #fcdb00;
     padding: 10px 25px;
     text-transform: uppercase;
+    transition: .5;
+}
+.ancor:hover{
+    background-color: #010101;
+    color: #fff;
 }
