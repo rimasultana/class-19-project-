@@ -96,3 +96,11 @@ ul{
 .tiny-indicators button{
     border-radius: 50%!important
 }
+.tiny-manu ul{
+    display: flex;
+    justify-content: center;
+}
+.tiny-manu ul li{
+    font-size: 15px;
+    padding: 0 10px;
+}
