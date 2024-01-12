@@ -60,5 +60,16 @@ ul{
     justify-content: center;
 }
 .tiny-slide ul li {
-  
-}
+    border: 2px solid #010101;
+    margin: 0 15px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .tiny-slide ul li i{
+    color: #010101;
+    font-size: 35px;
+  }
