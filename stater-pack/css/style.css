@@ -87,3 +87,12 @@ ul{
     background-color: #010101;
     color: #fff;
 }
+.tiny-indicators button{
+    height: 10px !important
+}
+.tiny-indicators button{
+    width: 10px!important
+}
+.tiny-indicators button{
+    border-radius: 50%!important
+}
