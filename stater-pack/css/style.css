@@ -73,10 +73,8 @@ ul{
     color: #010101;
     font-size: 35px;
   }
-  .ancor {
-    text-transform: uppercase;
+  .ancor{
     color: #2d2d2d;
-    /* border: 2px solid #0000; */
-    /* margin-top: 100px; */
-    padding: 10px 30px;
+    border: 2px solid #0000;
+    margin-top: 100px;
 }
