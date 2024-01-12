@@ -45,4 +45,20 @@ ul{
 }
 .tiny-slide{
     text-align: center;
+    padding: 218px 0 100px;
+}
+.tiny-slide h2{
+    color: #010101;
+    font-size: 48px;
+}
+.tiny-slide p{
+    color: #313848;
+    font-size: 20px;
+}
+.tiny-slide ul{
+    display: flex;
+    justify-content: center;
+}
+.tiny-slide ul li {
+  
 }
