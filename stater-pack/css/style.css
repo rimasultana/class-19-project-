@@ -24,6 +24,8 @@ ul{
 .tiny-header-top {
 }
 .tiny-manu-icon {
+    color: #010101;
+    font-size: 20px;
 }
 .tiny-social-icon {
 }
@@ -32,4 +34,8 @@ ul{
     justify-content: flex-end;
 }
 .tiny-social-icon ul li{}
-.tiny-social-icon ul li a{}
+.tiny-social-icon ul li a{
+    color: #010101;
+    font-size: 20px;
+    padding: 0 11px;
+}
