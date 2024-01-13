@@ -3,111 +3,149 @@
 body {
   font-family: "PT Sans", sans-serif;
 }
-img{
-    max-width: 100%;
-    height: auto;
-    display: block;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 /* header area */
 
 .tiny-header {
-    background-color: #fcdb00;
+  background-color: #fcdb00;
 }
 .tiny-header-top {
 }
 .tiny-manu-icon {
-    color: #010101;
-    font-size: 20px;
+  color: #010101;
+  font-size: 20px;
 }
 .tiny-social-icon {
 }
 .tiny-social-icon ul {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
-.tiny-social-icon ul li{}
-.tiny-social-icon ul li a{
-    color: #010101;
-    font-size: 20px;
-    padding: 0 11px;
+.tiny-social-icon ul li {
+}
+.tiny-social-icon ul li a {
+  color: #010101;
+  font-size: 20px;
+  padding: 0 11px;
 }
 /* tiny-header-bottom */
-.tiny-header-bottom{
-
+.tiny-header-bottom {
 }
-.tiny-slide{
-    text-align: center;
-    padding: 200px 0 120px;
+.tiny-slide {
+  text-align: center;
+  padding: 200px 0 120px;
 }
-.tiny-slide h2{
-    color: #010101;
-    font-size: 48px;
+.tiny-slide h2 {
+  color: #010101;
+  font-size: 48px;
 }
-.tiny-slide p{
-    color: #313848;
-    font-size: 20px;
+.tiny-slide p {
+  color: #313848;
+  font-size: 20px;
 }
-.tiny-slide ul{
-    display: flex;
-    justify-content: center;
+.tiny-slide ul {
+  display: flex;
+  justify-content: center;
 }
 .tiny-slide ul li {
-    border: 2px solid #010101;
-    margin: 0 15px;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-  }
-  .tiny-slide ul li i{
-    color: #010101;
-    font-size: 35px;
-  }
-  .ancor{
-    color: #2d2d2d;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin-top: 20px;
-    background-color: #fcdb00;
-    padding: 10px 25px;
-    text-transform: uppercase;
-    transition: .5;
+  border: 2px solid #010101;
+  margin: 0 15px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
-.ancor:hover{
-    background-color: #010101;
-    color: #fff;
+.tiny-slide ul li i {
+  color: #010101;
+  font-size: 35px;
 }
-.tiny-indicators button{
-    height: 10px !important
+.ancor {
+  color: #2d2d2d;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #fcdb00;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  transition: 0.5;
 }
-.tiny-indicators button{
-    width: 10px!important
+.ancor:hover {
+  background-color: #010101;
+  color: #fff;
 }
-.tiny-indicators button{
-    border-radius: 50%!important
+.tiny-indicators button {
+  height: 10px !important;
 }
-.tiny-manu ul{
-    display: flex;
-    justify-content: center;
+.tiny-indicators button {
+  width: 10px !important;
 }
-.tiny-manu ul li{
-    font-size: 15px;
-    padding: 0 10px;
-    color: #010101;
+.tiny-indicators button {
+  border-radius: 50% !important;
 }
-.tiny-manu ul li a{
-    color: #010101;
-    text-transform: capitalize;
+.tiny-manu ul {
+  display: flex;
+  justify-content: center;
+}
+.tiny-manu ul li {
+  font-size: 15px;
+  padding: 0 10px;
+  color: #010101;
+}
+.tiny-manu ul li a {
+  color: #010101;
+  text-transform: capitalize;
 }
 
- 
+/* tiny future section */
+.tiny-future {
+  background-color: #fff;
+  padding: 115px 0;
+}
+.tiny-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.tiny-future h3 {
+  columns: #010101;
+  font-size: 32px;
+}
+.tiny-future p{
+    font-size: 20px;
+    color: #313848;
+}
+.tiny-future-content{
+    padding: 45px 0;
+}
+.tiny-future-content h5{
+    font-size: 22px;
+    color: #010101;
+}
+.tiny-future-content p{
+    font-size: 16px;
+    color: #898989;
+}
+.tiny-mobile{
+    position: relative;
+}
+.tiny-mobile img{
+    width: 100%;
+}
+.tiny-future-logo{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+}
