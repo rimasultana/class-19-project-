@@ -40,6 +40,7 @@ ul {
   font-size: 20px;
   padding: 0 11px;
 }
+
 /* tiny-header-bottom */
 .tiny-header-bottom {
 }
@@ -181,4 +182,10 @@ ul {
 }
 .tiny-mail-btn input:hover {
   background-color: #d8be08 !important;
+}
+.tiny-footer-text{
+  margin-top: 120px;
+}
+.tiny-footer-text ul li, .tiny-footer-text ul li a{
+  color: #fff;
 }

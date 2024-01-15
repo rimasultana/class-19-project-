@@ -1,10 +1,13 @@
-
-
 @media (max-width: 991px) {
   .tiny-social-icon {
     display: none;
   }
   .tiny-future-content {
     padding: 20px 0;
+  }
+
+  .tiny-footer-text ul {
+    margin-bottom: 25px;
+    text-align: center;
   }
 }
