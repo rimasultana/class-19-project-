@@ -1,9 +1,10 @@
+
+
 @media (max-width: 991px) {
-    .tiny-social-icon{
-        display: none;
-    }
-  .tiny-future-content{
+  .tiny-social-icon {
+    display: none;
+  }
+  .tiny-future-content {
     padding: 20px 0;
   }
-   
 }
