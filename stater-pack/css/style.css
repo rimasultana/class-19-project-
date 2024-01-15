@@ -150,3 +150,13 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Footer area */
+
+.tiny-footer{
+  background-color: #010101;
+  padding: 115px 0;
+}
+.tiny-footer .tiny-title h3{
+  color: #fcdb00;
+}
