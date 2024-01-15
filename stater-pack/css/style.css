@@ -123,55 +123,62 @@ ul {
   columns: #010101;
   font-size: 32px;
 }
-.tiny-future p{
-    font-size: 20px;
-    color: #313848;
+.tiny-future p {
+  font-size: 20px;
+  color: #313848;
 }
-.tiny-future-content{
-    padding: 45px 0;
+.tiny-future-content {
+  padding: 45px 0;
 }
-.tiny-future-content h5{
-    font-size: 22px;
-    color: #010101;
+.tiny-future-content h5 {
+  font-size: 22px;
+  color: #010101;
 }
-.tiny-future-content p{
-    font-size: 16px;
-    color: #898989;
+.tiny-future-content p {
+  font-size: 16px;
+  color: #898989;
 }
-.tiny-mobile{
-    position: relative;
+.tiny-mobile {
+  position: relative;
 }
-.tiny-mobile img{
-    width: 100%;
+.tiny-mobile img {
+  width: 100%;
 }
-.tiny-future-logo{
-    position: absolute;
-    bottom: -60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.tiny-future-logo {
+  position: absolute;
+  bottom: -60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Footer area */
 
-.tiny-footer{
+.tiny-footer {
   background-color: #010101;
   padding: 115px 0;
 }
-.tiny-footer .tiny-title h3{
+.tiny-footer .tiny-title h3 {
   color: #fcdb00;
 }
-.tiny-subscription{}
-.tiny-subscription form{
+.tiny-subscription {
+}
+.tiny-subscription form {
   display: flex;
   justify-content: space-between;
+  gap: 2%;
 }
-.tiny-mail{
-
+.tiny-mail {
+  width: 85%;
 }
-/* .tiny-mail-btn input{
+.tiny-mail-btn input {
   color: #010101;
   background-color: #fcdb00;
- }
-.tiny-mail-btn input:hover{
-  background-color: #d8be08!important
-} */
+  font-weight: 700;
+  width: 40%;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 0;
+}
+.tiny-mail-btn input:hover {
+  background-color: #d8be08 !important;
+}
