@@ -160,3 +160,18 @@ ul {
 .tiny-footer .tiny-title h3{
   color: #fcdb00;
 }
+.tiny-subscription{}
+.tiny-subscription form{
+  display: flex;
+  justify-content: space-between;
+}
+.tiny-mail{
+
+}
+/* .tiny-mail-btn input{
+  color: #010101;
+  background-color: #fcdb00;
+ }
+.tiny-mail-btn input:hover{
+  background-color: #d8be08!important
+} */
